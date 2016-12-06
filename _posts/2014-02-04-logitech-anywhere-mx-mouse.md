@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Logitech Anywhere MX Mouse"
 description: ""
 tags: 지름

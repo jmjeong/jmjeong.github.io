@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  인터넷 라디오 녹음하여 PodCasting Service 하기
 description: 
 category: 

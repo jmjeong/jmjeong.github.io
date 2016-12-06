@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Devonthink 두 곳에서 사용하기
 description: 
 category: 

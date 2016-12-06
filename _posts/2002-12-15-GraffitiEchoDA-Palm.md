@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: post
 title: GraffitiEchoDA
 description: 
 category: palm
-tags:  palm palmprogram
+tags:  palm
 ---
 
 GraffitiEchoDA is for Handera 330, and is freeware. GraffitiEchoDA controls Graffiti echo in silk screen. 

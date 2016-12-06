@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "홈페이지 이전"
 description: ""
 tags: 

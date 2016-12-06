@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: pebble-development
 modified: 
 category: pebble

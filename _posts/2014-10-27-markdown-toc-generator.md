@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Markdown toc generator
 modified: 
 category: python

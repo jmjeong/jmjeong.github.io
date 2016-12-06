@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: PlanBe와 HappyDays 연동
 description: 
 category: [happydays,ios]

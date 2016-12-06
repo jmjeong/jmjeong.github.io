@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: clash of clans upgrade tracker
 modified: 
 category: node

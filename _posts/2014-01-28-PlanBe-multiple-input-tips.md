@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "PlanBe와 x-callback-url을 이용하여 여러 일정/할 일 등록"
 category: ios
 tags: planbe ios

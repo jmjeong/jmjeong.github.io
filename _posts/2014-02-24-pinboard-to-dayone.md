@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: 'pinboard to dayone'
 description: "매일 Pinboard 저장된 bookmark를 dayone에 archive하는 script"
 tags: python pinboard

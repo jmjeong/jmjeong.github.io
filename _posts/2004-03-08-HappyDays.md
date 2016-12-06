@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: post
 title: HappyDays
 description: 
 category: [happdyays,palm]
-tags:  palm palmprogram happydays
+tags:  palm happydays
 ---
 
 HappyDays is an application for the Palm family of hand-held computers. It is yet another

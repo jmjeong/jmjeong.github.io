@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: alfred-pinboard 팁 모음
 description: 
 category: 

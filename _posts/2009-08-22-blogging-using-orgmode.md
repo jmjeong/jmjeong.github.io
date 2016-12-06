@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Orgmode를 이용한 Blogging
 description: 
 category: 

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "alfred-pinboard tip"
 description: "alfred pinboard를 bookmark처럼 활용하는 법"
 tags: alfred pinboard python

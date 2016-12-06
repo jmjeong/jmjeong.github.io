@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: AWS 과금 내역 - 로그 Tracking 용
 description: 
 category: 

@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: post
 title: HappyDays/Manual
 description: 
 category: [palm, happydays]
-tags:  palm palmprogram
+tags:  palm
 ---
 
 ## Introduction  

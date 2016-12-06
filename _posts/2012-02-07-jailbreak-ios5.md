@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: JailBreak (iOS 5)
 description: 
 category: ios

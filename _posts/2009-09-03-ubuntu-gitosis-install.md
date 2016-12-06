@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Ubuntu에 Gitosis Install
 description: 
 category: 

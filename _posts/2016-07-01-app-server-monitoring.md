@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: App/Server monitoring
 category: node
 excerpt: graphite, graphana, statsd

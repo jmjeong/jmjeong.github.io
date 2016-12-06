@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: HappyDays/PostCard
 description: 
 category: [palm, happydays]

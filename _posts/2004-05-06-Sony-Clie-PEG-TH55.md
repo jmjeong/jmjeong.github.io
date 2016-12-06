@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Sony Clie PEG-TH55
 description: 
 category: palm

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: alfred-pinboard
 description: ""
 tags: alfred pinboard python

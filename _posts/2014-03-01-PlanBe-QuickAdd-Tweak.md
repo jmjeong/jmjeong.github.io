@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "PlanBe QuickAdd Tweak"
 description: ""
 category: ios

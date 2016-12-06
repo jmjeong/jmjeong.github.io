@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Pomodoro controls for AlfredApp
 description: 
 category: mac

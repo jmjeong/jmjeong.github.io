@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "PlanBe QuickAdd 사용법"
 description: ""
 category: ios

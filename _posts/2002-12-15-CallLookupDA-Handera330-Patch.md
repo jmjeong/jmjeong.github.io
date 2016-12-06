@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: post
 title: CallLookupDA Handera330 Patch
 description: 
 category: palm
-tags: palm palmprogram
+tags: palm
 ---
 
 [Call Lookup DA](http://www001.upp.so-net.ne.jp/kterada/pilot/)는

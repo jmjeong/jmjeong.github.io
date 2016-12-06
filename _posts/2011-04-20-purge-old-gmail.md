@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Gmail 정리하기
 description: 
 category: python

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: cal-korean.el
 description: 
 category: emacs

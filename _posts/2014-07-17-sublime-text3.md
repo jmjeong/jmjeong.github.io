@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Sublime Text 3
 description:
 tags: mac

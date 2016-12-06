@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: iHappyDays Pro v2.0
 description: 
 category: [happydays,ios]

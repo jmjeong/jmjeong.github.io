@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: 자전거 팔당 초계 국수 
 description: 
 category: bicycle

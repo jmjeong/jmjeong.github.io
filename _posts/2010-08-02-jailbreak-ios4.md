@@ -1,6 +1,6 @@
 
 ---
-layout: single
+layout: post
 title: "JailBreak (iOS 4)"
 description: ""
 category: ios

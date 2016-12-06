@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: 미노우라 SL-BD-1 Kickstand
 description: 
 category: bicycle

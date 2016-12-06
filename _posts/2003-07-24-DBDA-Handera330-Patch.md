@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: post
 title: DBDA Handera 330 Patch
 description: 
 category: palm
-tags:  palm palmprogram
+tags:  palm
 ---
 
 [DB DA](http://member.nifty.ne.jp/yamakado/da/miyaguchi-da/)는

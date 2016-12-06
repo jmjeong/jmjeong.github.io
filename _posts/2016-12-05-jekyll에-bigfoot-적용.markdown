@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Jekyll에 bigfoot plugin 적용
 description: 
 category: jekyll

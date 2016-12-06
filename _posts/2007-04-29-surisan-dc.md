@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: 수리산-DC
 description: 
 category: bicycle

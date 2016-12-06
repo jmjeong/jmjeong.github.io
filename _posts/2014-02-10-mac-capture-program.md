@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "맥의 캡처 프로그램 정리"
 description: ""
 tags: mac 

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: MacOS Emacs 한글 입력
 description: 
 category: emacs

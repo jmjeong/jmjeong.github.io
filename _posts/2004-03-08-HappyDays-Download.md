@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: post
 title: HappyDays/Download
 description: 
 category: [palm, happydays]
-tags: palm palmprogram
+tags: palm
 ---
 
 #### File Download  

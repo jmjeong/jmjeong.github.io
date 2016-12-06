@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Writing Devonthink Pro article using org-mode"
 description:
 category: emacs

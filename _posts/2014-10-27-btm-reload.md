@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Back To The Mac RSS reloader
 description: 
 category: mac

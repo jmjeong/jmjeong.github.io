@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<!-- TOC Generator -->
+<script src="/assets/js/jquery.toc-1.1.4.min.js"></script>
+
+<script>
+  // $('#toc').toc();
+$('#toc').toc({exclude: 'h1, h6', autoId: true, numerate: true});
+</script>
+
 <article class="post">
   <h1>{{ page.title }}</h1>
 
@@ -12,6 +20,16 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
+
+  <div>
+    <ul class="tags post-tags cf">
+      <li>Tagged:</li>
+      {% for tag in page.tags %}
+      <li><a href="/search/?tags={{ tag }}">{{ tag | downcase }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <br>
 
   {% include disqus.html %}
 </article>

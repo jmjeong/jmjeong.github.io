@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: twittering-mode.el patch
 description: 
 category: emacs

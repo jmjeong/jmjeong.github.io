@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: pdw-takeout-basket
 description: 
 category: bicycle

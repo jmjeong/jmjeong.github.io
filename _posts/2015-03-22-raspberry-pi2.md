@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Raspberry Pi2
 image:
   teaser: t-raspberry-pi.jpg

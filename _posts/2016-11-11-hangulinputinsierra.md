@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: macOS Sierra에서 한글 입력
 description: 
 category: mac

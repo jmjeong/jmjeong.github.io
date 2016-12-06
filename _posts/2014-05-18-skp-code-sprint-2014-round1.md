@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: 2014 SKP Code Sprint Round1
 description: 
 category: python

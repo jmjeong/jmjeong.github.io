@@ -1,6 +1,6 @@
 ---
 title: appsales to graphite
-layout: single
+layout: post
 tags: node
 category: node
 ---

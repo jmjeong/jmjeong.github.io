@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: AWS Kinesis, API Gateway, Lambda
 description: AWS Kinesis, API Gateway, Lambda
 category: node

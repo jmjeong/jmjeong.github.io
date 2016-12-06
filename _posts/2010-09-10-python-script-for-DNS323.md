@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: DNS-323에서 파일정리
 description: 
 category: python

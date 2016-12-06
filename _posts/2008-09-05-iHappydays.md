@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: iHappyDays
 description: 
 category: [ios, happydays]

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: 제15회 화성따라 자전거타기 행사
 description: 
 category: bicycle

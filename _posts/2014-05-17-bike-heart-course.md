@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: 자전거 하트코스
 description: 
 category: bicycle

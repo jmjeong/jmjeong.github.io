@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Syntax used in HappyDays
 description: 
 category: [happydays,ios]

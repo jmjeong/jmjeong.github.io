@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: RamNode 등록
 description: 
 category: 

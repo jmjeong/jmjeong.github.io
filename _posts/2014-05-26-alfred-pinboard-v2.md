@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: alfred-pinboard version 2
 description: 
 category: 

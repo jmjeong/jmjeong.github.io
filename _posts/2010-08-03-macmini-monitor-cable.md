@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: 맥미니 모니터 연결기
 description: 
 category: 

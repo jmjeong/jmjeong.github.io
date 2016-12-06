@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: post
 title: KSC HanjaCode DA
 description: 
 category: palm
-tags:  palm palmprogram
+tags:  palm
 ---
 
 

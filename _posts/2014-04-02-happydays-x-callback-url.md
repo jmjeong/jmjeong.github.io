@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "HappyDays x-callback-url"
 description:
 category: [happydays,ios]

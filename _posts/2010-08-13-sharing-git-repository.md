@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: git 작업 결과 공유하기
 description: 
 category: 

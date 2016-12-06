@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Emacs용 Mail client 사용기
 description: 
 category: emacs

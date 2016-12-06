@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: C 음력변환 라이브러리
 description: 
 category: 

@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: post
 title: AlarmVolumeHack
 description: 
 category: palm
-tags: palm palmprogram
+tags: palm
 ---
 
 ### Problem

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: SKP CodeSprint 참가 후기
 description: 
 category: python

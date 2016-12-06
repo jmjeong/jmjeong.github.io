@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: 반월호수 자전거타기
 description: 
 category: bicycle

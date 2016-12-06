@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: TDD in django
 description: 
 category: python

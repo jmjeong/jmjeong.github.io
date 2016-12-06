@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: NOSE와 TDAEMON을 이용한 자동 테스트
 description: 
 category: python

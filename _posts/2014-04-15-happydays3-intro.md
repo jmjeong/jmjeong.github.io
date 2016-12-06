@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: HappyDays 3.0 소개 동영상
 description: 
 category: [ios,happydays]

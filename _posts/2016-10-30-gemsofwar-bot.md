@@ -1,7 +1,7 @@
 ---
 title: GemsOfWar Bot 개발
 description: node.js를 이용하여 GemsOfWar bot 개발
-layout: single
+layout: post
 tags: node
 category: node
 ---

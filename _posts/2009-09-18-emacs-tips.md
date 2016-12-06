@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Emacs Tip
 description: 
 category: emacs

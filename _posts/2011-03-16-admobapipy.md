@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: AdmobAPI.py
 description: 
 category: python

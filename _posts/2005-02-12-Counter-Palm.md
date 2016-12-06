@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: post
 title: Counter
 description: 
 category: palm
-tags:  palm palmprogram
+tags:  palm
 ---
 
 People Counter 라는 프로그램을 보고 만든 프로그램.  화면 상의 'Count ME!' 버튼을 누르거나 PageUp 키를

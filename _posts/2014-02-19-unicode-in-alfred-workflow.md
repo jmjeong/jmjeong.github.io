@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "alfred workflow의 한글 처리"
 description: ""
 tags: alfred python

@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: post
 title: Doc Arranger
 description: 
 category: palm
-tags:  palm palmprogram
+tags:  palm
 ---
 
 Palm Doc 파일을 Palm 내에서 정렬해주는 프로그램입니다.
