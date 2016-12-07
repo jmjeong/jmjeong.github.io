@@ -27,6 +27,11 @@ body {
   max-width: 80%;
   padding: 0 10px;
   width: 100%;
+
+
+  @include mobile {
+    max-width: 95%;
+  }
 }
 
 .entry {
