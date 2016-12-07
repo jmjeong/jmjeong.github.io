@@ -156,7 +156,7 @@ img {
 input#search-input {
   font-family: $helveticaNeue;
   font-size: 18px;
-  width: 350px;
+  width: 80%;
   height: 1.5;
   background: white;
 }
@@ -354,6 +354,7 @@ footer {
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "tags";
+@import "table-of-content";
 @import "paginate";
 @import "highlights";
 @import "svg-icons";
