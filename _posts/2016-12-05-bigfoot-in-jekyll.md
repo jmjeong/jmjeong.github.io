@@ -3,7 +3,7 @@ layout: post
 title: Jekyll에 bigfoot plugin 적용
 description: 
 category: jekyll
-tags: mac jekyll
+tags: blog jekyll
 ---
 {:toc}
 bigfoot은 각주를 팝오버 창으로 띄워 문서의 아래로 내려가지 않고서도 내용을 확인할 수 있게 하는 jQuery plugin이다. 
