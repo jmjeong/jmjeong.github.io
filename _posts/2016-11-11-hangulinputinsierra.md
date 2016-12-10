@@ -24,5 +24,26 @@ keyboard maestro를 이용하여 [키를 재 설정](http://d.jmjeong.com/MwBk+)
 Alfred에서 Ctrl-P, Ctrl-N이 action으로 동작하는 불편함이 있어, action key를 `tab`으로 변경해서 
 쓰다가 설정 변경[^2] 후에 원래 대로 `ctrl`로 변경하여 사용합니다. 
 
+## 알프레드 앱에서 한글 마지막 글자 잘림
+
+언제부터인지, 어떤 경로로 발생했는지 모르겠지만, 알프레드 app에서 한글 마지막 글자가 입력되지 않는
+현상이 나타났습니다.  내장 입력기의 문제라고 생각했는데, 구름입력기로 변경하는 경우에도 같은 현상이 발견되었습니다. 
+
+(Update: 2016-12-10 Sat)
+
+Preference-keyboard 설정과 alfred의 설정을 바꿔보아도 어떤 경우에 발생하는지 모르겠네요. 
+
+혹시 해결책을 아시는 분은 알려주세요. 
+
+### 문제가 되는 경우 
+
+![](http://d.jmjeong.com/BHoh+)
+
+### 정상적으로 입력이 되는 경우
+
+![](http://d.jmjeong.com/Tohl+)
+
+
+
 [^1]: alfred option - apperance - focusing을 compatibility mode로 변경하면 해결된다고 합니다. 
 [^2]: alfred option - apperance - focusing to "Compatibility mode"
