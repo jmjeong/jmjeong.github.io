@@ -28,7 +28,6 @@ Alfred에서 Ctrl-P, Ctrl-N이 action으로 동작하는 불편함이 있어, ac
 
 언제부터인지, 어떤 경로로 발생했는지 모르겠지만, 알프레드 app에서 한글 마지막 글자가 입력되지 않는
 현상이 나타났습니다.  내장 입력기의 문제라고 생각했는데, 구름입력기로 변경하는 경우에도 같은 현상이 발견되었습니다. 
-
 (Update: 2016-12-10 Sat)
 
 Preference-keyboard 설정과 alfred의 설정을 바꿔보아도 어떤 경우에 발생하는지 모르겠네요. 
@@ -42,7 +41,11 @@ Preference-keyboard 설정과 alfred의 설정을 바꿔보아도 어떤 경우�
 ### 정상적으로 입력이 되는 경우
 
 ![](http://d.jmjeong.com/Tohl+)
+ 
+## Update (2016-12-12 Mon)
 
+맥 프로, 맥 북 에어 둘 다 리 붓후에 정상적으로 입력이 됩니다. sublime text의 검색 창에서도 한글이 잘리지 않고 정상적으로 입력됩니다. 
+어떤 앱을 수행하고 난 후에 바뀌는게 아닌가 의심이 되네요. 
 
 
 [^1]: alfred option - apperance - focusing을 compatibility mode로 변경하면 해결된다고 합니다. 
