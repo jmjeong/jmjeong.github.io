@@ -44,9 +44,10 @@ Preference-keyboard 설정과 alfred의 설정을 바꿔보아도 어떤 경우�
  
 ## Update (2016-12-12 Mon)
 
-맥 프로, 맥 북 에어 둘 다 리 붓후에 정상적으로 입력이 됩니다. sublime text의 검색 창에서도 한글이 잘리지 않고 정상적으로 입력됩니다. 
-어떤 앱을 수행하고 난 후에 바뀌는게 아닌가 의심이 되네요. 
+맥 프로, 맥 북 에어 둘 다 리붓 후에 정상적으로 입력이 됩니다. sublime text의 검색 창에서도 한글이 잘리지 않고 정상적으로 입력됩니다[^3]. 
+어떤 앱을 수행하고 난 후에 바뀌는게 아닌가 의심이 되네요.  
 
 
 [^1]: alfred option - apperance - focusing을 compatibility mode로 변경하면 해결된다고 합니다. 
 [^2]: alfred option - apperance - focusing to "Compatibility mode"
+[^3]: 얼마 후 다시 조합(마지막 글자 잘림) 모드로 바뀌네요. 
