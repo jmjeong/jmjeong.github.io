@@ -2,7 +2,7 @@
 layout: post
 title: Sublime Text 3
 description:
-tags: mac
+tags: mac sublimetext
 category: mac
 image:
   teaser: t-sublime-text.jpg
