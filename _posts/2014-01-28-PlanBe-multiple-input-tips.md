@@ -9,7 +9,9 @@ PlanBe와 x-callback-url을 이용한 할 일 여러개 등록하는 Tip 입니�
 
 ### 다수의 할 일을 한꺼번에 미리알림에 등록하기
 
-    namuplanbe://x-callback-url/parse?title=[[draft]]&type=t&x-source=Drafts&prompt=y&x-success={ {drafts://} }
+{% raw %}
+    namuplanbe://x-callback-url/parse?title=[[draft]]&type=t&x-source=Drafts&prompt=y&x-success={{drafts://}}
+{% endraw %}
 
 - Action 자동등록 URL : [링크](drafts://x-callback-url/import_action?type=URL&name=PlanBe%20Reminder%20%28multi%29&url=namuplanbe%3A%2F%2Fx-callback-url%2Fparse%3Ftitle%3D%5B%5Bdraft%5D%5D%26type%3Dt%26x-source%3DDrafts%26prompt%3Dy%26x-success%3D%7B%7Bdrafts%3A%2F%2F%7D%7D)
 

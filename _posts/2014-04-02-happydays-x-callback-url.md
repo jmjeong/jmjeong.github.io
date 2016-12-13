@@ -25,7 +25,9 @@ tag: happydays
         - Son 100th anniversary,2012/5/5[100]
 * x-success
     - designate URI performed after processing
-    - example : `x-success={ {drafts://} }`
+    {% raw %}
+    - example : `x-success={{drafts://}}`
+    {% endraw %}
 * prompt : y or n
     - Will show a pop-up window asking to go back to x-success after processing
     - example : prompt=y
