@@ -81,4 +81,4 @@ docker run --name confluence -itd --restart always \
 - 데이타 백업이 필요할 때  /data/docker directory만 복사하면 됨
 - Jira, Confluence database 설정 
     - PostgreSQL
-    - `jdbc:postgresql://xxx.xxx.xx.xxx15432/<confluence, jira>` - hostip를 지정
+    - `jdbc:postgresql://<hostip>:15432/<confluence, jira>`
