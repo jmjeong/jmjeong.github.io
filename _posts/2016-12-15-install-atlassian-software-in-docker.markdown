@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Ubuntu 16.04.01(Xenial) LTS에 atlassian jira, conflunce를 docker를 이용하여 설치 
+title: atlassian jira, conflunce를 docker를 이용하여 설치 
 description: 
 category: 
 tags: docker atlassian 
 ---
+
+Ubuntu 16.04.01(Xenial) LTS에 docker를 이용하여 atlassian jira, confluence 설치하기 
+
 
 # Docker Install
 
