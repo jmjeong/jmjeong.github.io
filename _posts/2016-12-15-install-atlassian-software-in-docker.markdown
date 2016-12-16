@@ -8,6 +8,8 @@ tags: docker atlassian
 
 # Docker Install
 
+- [참고문서](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+
 ## Pre-requisite 
 
 ```sh
@@ -71,8 +73,12 @@ docker run --name confluence -itd --restart always \
   cptactionhank/atlassian-confluence
 ```
 
-# 이슈
+# 기타
 
 - License issue로 인해 prebuilt docker image가 openjdk:8 을 base image로 사용 
     - atlassian software에서는 openjdk가 검증되지 않았다고 warning 메시지를 출력
-    - oracle-java7-installer 의 custom docker image를 생성하는게 나을 수도
+    - Oracle Java installer로 변경하는게 나을 수도 - `sudo apt-get -y install oracle-java8-installer`
+- 데이타 백업이 필요할 때  /data/docker directory만 복사하면 됨
+- Jira, Confluence database 설정 
+    - PostgreSQL
+    - jdbc:postgresql://<hostip>:15432/<confluence, jira>
