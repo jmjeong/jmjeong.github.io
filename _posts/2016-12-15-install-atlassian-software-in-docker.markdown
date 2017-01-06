@@ -85,3 +85,5 @@ docker run --name confluence -itd --restart always \
 - Jira, Confluence database 설정 
     - PostgreSQL
     - `jdbc:postgresql://<hostip>:15432/<confluence, jira>`
+- docker shell 접속
+    - `docker exec -it jira /bin/bash`
