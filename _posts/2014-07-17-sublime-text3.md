@@ -8,32 +8,25 @@ image:
   teaser: t-sublime-text.jpg
 ---
 
-Emacs 24가 shift-space로 한영 전환에 문제가 있어서 23.4를 사용하고 있는데,
-가끔 사용 메모리가 Giga 단위로 늘어나는 문제가 있어 Sublime Text 3 에디터를 테스트 해 보았다.
-$70으로 다른 에디터에 비해서 다소 비싸지만, 지속적으로 업데이트가 되는 점이나
-[라이센스 정책](http://www.sublimetext.com/sales_faq)이 마음에 들었다.
+Emacs 24가 shift-space로 한영 전환에 문제가 있어서 23.4를 사용하고 있는데, 가끔 사용 메모리가 Giga 단위로 늘어나는 문제가 있어 Sublime Text 3 에디터를 테스트 해 보았다. $70으로 다른 에디터에 비해서 다소 비싸지만, 지속적으로 업데이트가 되는 점이나 [라이센스 정책](http://www.sublimetext.com/sales_faq)이 마음에 들었다.
 
 - 멀티 OS, 컴퓨터 사용 가능 : 한번 구입으로 mac, linux, windows 버전 사용 가능
 - 개인용 라이센스로 업무용 사용 가능
 - Evaluation version이 가끔 구매 popup이 뜨는 것을 제외하고는 별다른 time limit가 없음
 
-에디터 내에 package 관리자가 내장되어 snippet나 syntax, theme을 인스톨할 수 있고, python으로 
-package를 제작할 수 있는 것도 매력적이다. 폰트나 탭 크기 등 각 설정들은 json 파일로 관리된다. 
+에디터 내에 package 관리자가 내장되어 snippet나 syntax, theme을 인스톨할 수 있고, python으로 package를 제작할 수 있는 것도 매력적이다. 폰트나 탭 크기 등 각 설정들은 json 파일로 관리된다. 
 
 ![](https://farm6.staticflickr.com/5576/14670288241_fe5172a69e.jpg)
 
-10M 이상의 큰 파일을 열어서 편집할 때도 괜찮은 속도를 보여주고, IDE 처럼 symbol을 참조하거나 문서를
-볼 수 있는 기능도 있다. 사용자 층이 많아서 인터넷 상에 관련 자료가 꽤 있다.
+10M 이상의 큰 파일을 열어서 편집할 때도 괜찮은 속도를 보여주고, IDE 처럼 symbol을 참조하거나 문서를 볼 수 있는 기능도 있다. 사용자 층이 많아서 인터넷 상에 관련 자료가 꽤 있다.
 
-어느정도 생태계가 구축되어서 설정 파일을 백업해서 공유해주는 [서비스](https://sublimall.org/)와
-완성도 있는 [유료 플러그인](https://sublimegit.net)도 판매되고 있다.
+어느정도 생태계가 구축되어서 설정 파일을 백업해서 공유해주는 [서비스](https://sublimall.org/)와 완성도 있는 [유료 플러그인](https://sublimegit.net)도 판매되고 있다.
 
 ### 키 리매핑
 
-Emacs에서 사용했던 바인딩대로 meta+f, meta+b로 단어 단위 이동과 meta+g를 누르면 escape로 동작하도록
-조정했다.
+Emacs에서 사용했던 바인딩대로 meta+f, meta+b로 단어 단위 이동과 meta+g를 누르면 escape로 동작하도록 조정했다.
 
-{% highlight json %}
+```js
 [
     { "keys": ["super+k", "super+l"], "command": "set_mark" },
     { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
@@ -61,14 +54,13 @@ Emacs에서 사용했던 바인딩대로 meta+f, meta+b로 단어 단위 이동�
         "show_files": true
     }},
 ]
-{% endhighlight %}
+```
 
 #### 매뉴얼에 나오지 않는 기본 키
 
 - 현재 커서 밑의 글자 지우기 : Ctl-D
 - 파일 제일 앞으로 이동 : Cmd-Up
 - 파일 맨 마지막으로 이동 : Cmd-Down
-
 
 #### 설치한 package
 
@@ -105,6 +97,6 @@ Emacs에서 사용했던 바인딩대로 meta+f, meta+b로 단어 단위 이동�
 - Preferences에서 설정을 바꾸고 나면 프로그램을 재시작해야지만 동작한다. Reload 설정이 있을 것 같은데
   못 찾겠다.
 
-- Sublime Text 3 베타 마지막 릴리즈가 2013. 12월이다. Forum을 살펴보니 개발이 진행되고 있으나
-내부적인 문제가 있는 듯 하다. Atom을 개발한 Github가 인수한다는 rumor도 잠깐 있었으나 포럼에서는
-공식적으로 부인했다. 구입을 할까 하다가 정식 버전 나올 때까지 미루기로 했다.
+- Sublime Text 3 베타 마지막 릴리즈가 2013. 12월이다. Forum을 살펴보니 개발이 진행되고 있으나 내부적인 문제가 있는 듯 하다. Atom을 개발한 Github가 인수한다는 rumor도 잠깐 있었으나 포럼에서는공식적으로 부인했다. 구입할까 하다가 정식 버전 나올 때까지 미루기로 했다.
+
+
