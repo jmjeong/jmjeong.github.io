@@ -4,7 +4,7 @@ title: AWS Kinesis, API Gateway, Lambda
 description: AWS Kinesis, API Gateway, Lambda
 category: node
 excerpt: AWS Kinesis, API Gateway, Lambda
-tags: node
+tags: node, aws, amazon
 ---
 
 - [PDF format](http://dr.jmjeong.com/1dNdw+)
@@ -202,3 +202,5 @@ exports.handler = function(event, context, callback) {
 - Use the built-in CloudWatch monitoring of your lambda function to view and optimize request
 latencies
 - Delete old Lambda functions that you are no longer using
+
+
