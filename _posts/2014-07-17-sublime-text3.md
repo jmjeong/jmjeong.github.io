@@ -4,8 +4,6 @@ title: Sublime Text 3
 description:
 tags: mac sublimetext
 category: mac
-image:
-  teaser: t-sublime-text.jpg
 ---
 
 Emacs 24가 shift-space로 한영 전환에 문제가 있어서 23.4를 사용하고 있는데, 가끔 사용 메모리가 Giga 단위로 늘어나는 문제가 있어 Sublime Text 3 에디터를 테스트 해 보았다. $70으로 다른 에디터에 비해서 다소 비싸지만, 지속적으로 업데이트가 되는 점이나 [라이센스 정책](http://www.sublimetext.com/sales_faq)이 마음에 들었다.

@@ -3,7 +3,7 @@ layout: post
 title: KSC HanjaCode DA
 description: 
 category: palm
-tags:  palm
+tags: palm
 ---
 
 
@@ -34,3 +34,5 @@ sound, private record toggle 등 여러 기능이 있습니다.
 ### Download 
 
 - 0.91 Version : [daksc.zip](https://dl.dropboxusercontent.com/u/4345768/jmjeong.com/daksc.zip)
+
+
