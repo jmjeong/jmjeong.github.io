@@ -27,6 +27,6 @@ Bandwidth의 VPS 서비스를 40% 할인해서 1년에 $14.4에 판매를 했다
 ```
 
 - VPN Server를 설정해서 사용하니 속도가 1Mbps 나온다. [2014-05-14 Wed]
-- arq 4라는 mac program을 구입 후, 사진 bakcup용으로 sftp 설정해서 사용 중 [2014-08-04 Mon]
+- arq 4라는 mac program을 구입 후, 사진 backup용으로 sftp 설정해서 사용 중 [2014-08-04 Mon]
 - [https://www.digitalocean.com/pricing](https://www.digitalocean.com/pricing) 도 검토
 
