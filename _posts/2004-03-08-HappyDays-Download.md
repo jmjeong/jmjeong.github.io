@@ -12,20 +12,14 @@ tags: palm
 * [happydays-src-3.01.zip](https://dl.dropboxusercontent.com/u/4345768/jmjeong.com/happydays-src.zip) -- Source file, [Handera 330 SDK](https://dl.dropboxusercontent.com/u/4345768/jmjeong.com/handera-sdkv105.zip)
 * [Github Link](https://github.com/jmjeong/happydays.palm)
 
-If you use the Happydays 1.x version, you **should** uninstall the old version due to HappyDaysDB
-name change before you install the new version. **In Happydays 3.x version, you should install
-lunarlib.prc file together.**
+If you use the Happydays 1.x version, you **should** uninstall the old version due to HappyDaysDB name change before you install the new version. **In Happydays 3.x version, you should install lunarlib.prc file together.**
 
 - Refer [HappyDays Page]({% post_url 2004-03-08-HappyDays %})
 
 
 #### Localizations 
 
-If you would like to translate HappyDays into your favorite language, please mail me and let me
-know. To translate HappyDays into your favorite language, you need to copy 'translate/english.msg'
-file into xxx.msg and edit xxx.msg file. Translate the right part( i.e. the phase after '=') into
-your favorite language. See the sample english.msg file.(It is just sample file. If you want to do
-the localization, download the source file and refer translate/english.msg file.)
+If you would like to translate HappyDays into your favorite language, please mail me and let me know. To translate HappyDays into your favorite language, you need to copy 'translate/english.msg' file into xxx.msg and edit xxx.msg file. Translate the right part( i.e. the phase after '=') into your favorite language. See the sample english.msg file.(It is just sample file. If you want to do the localization, download the source file and refer translate/english.msg file.)
 
 You can download the localized version from [link](https://www.dropbox.com/home/Public/jmjeong.com/HappyDays)
 
@@ -144,3 +138,5 @@ HappyDays has been translated into the following languages:
 	-  Font selection in HappyDays list 
 	-  Add 'Address Autoscan' option. 
 	- And more 
+
+

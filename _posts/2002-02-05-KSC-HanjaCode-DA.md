@@ -18,13 +18,10 @@ copy하거나 현재 입력창에 insert할 수 있습니다. (APPID: HCda)
 이동하는 것도 가능합니다.
 
 이 프로그램을 사용을 하려면 DA Launcher, QuickLauncher, ButtonDa Hack, CalcButtonHack,
-FindButtonHack, TealLaunch, Swipe, EasyLaunch 등의 DA launcher 프로그램이 필요합니다. 개인적으로는
-EasyLaunch를 추천합니다. Freeware이고 da Lancher뿐 아니라, 버튼 조합으로 응용 프로그램을 구동시키기,
-sound, private record toggle 등 여러 기능이 있습니다.
+FindButtonHack, TealLaunch, Swipe, EasyLaunch 등의 DA launcher 프로그램이 필요합니다. 개인적으로는 EasyLaunch를 추천합니다. Freeware이고 da Lancher뿐 아니라, 버튼 조합으로 응용 프로그램을 구동시키기, sound, private record toggle 등 여러 기능이 있습니다.
 
 [한자 입력기]를 만들기 위한 준비 작업으로, Hiroshi Ono씨의 jis kanji code DA 코드를 바탕으로
-만들어졌습니다. Screenshot의 화면은 Handera 330에서 Hantip 3.1 beta3을 이용한 화면입니다. 160x160
-모드에서 동작하는 normal palm에서는 한자 코드가 겹쳐보일 수 있습니다.
+만들어졌습니다. Screenshot의 화면은 Handera 330에서 Hantip 3.1 beta3을 이용한 화면입니다. 160x160 모드에서 동작하는 normal palm에서는 한자 코드가 겹쳐보일 수 있습니다.
 
 ### 변경 이력
 
@@ -34,5 +31,4 @@ sound, private record toggle 등 여러 기능이 있습니다.
 ### Download 
 
 - 0.91 Version : [daksc.zip](https://dl.dropboxusercontent.com/u/4345768/jmjeong.com/daksc.zip)
-
 

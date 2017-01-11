@@ -17,15 +17,17 @@ googlemaps라는 클래스가 있는데, 반환되는 주소가 영문으로 나
 
 #### 사용법
 
-	>>>  import Gmaps
-    >>>  gmaps = Gmaps()
-    >>>  addrLists = gmaps.reverse_geocode(37.2983333,126.835000)
-    >>>  print addrList[2].encode('utf-8')
-    대한민국 경기도 안산시 상록구 사동
+```
+>>>  import Gmaps
+>>>  gmaps = Gmaps()
+>>>  addrLists = gmaps.reverse_geocode(37.2983333,126.835000)
+>>>  print addrList[2].encode('utf-8')
+대한민국 경기도 안산시 상록구 사동
+```
 
 #### 소스 (Gmaps.py)
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
@@ -97,4 +99,6 @@ if __name__ == '__main__':
     # gmaps = Gmaps()
     # print gmaps.reverse_geocode(37.2983333,126.835000)[2].encode('utf-8')
     pass
-{% endhighlight %}	
+```
+
+

@@ -35,7 +35,7 @@ bigfoot은 각주를 팝오버 창으로 띄워 문서의 아래로 내려가지
 
 - change package.json to rebuild `assets/js/main.min.js` 
 
-```json
+```js
 	"uglify": "uglifyjs assets/js/vendor/jquery/jquery-1.12.4.min.js 
 		assets/js/plugins/bigfoot.min.js assets/js/plugins/jquery.fitvids.js 
 		assets/js/plugins/jquery.greedy-navigation.js 

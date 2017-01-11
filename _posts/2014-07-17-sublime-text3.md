@@ -12,9 +12,9 @@ Emacs 24가 shift-space로 한영 전환에 문제가 있어서 23.4를 사용�
 - 개인용 라이센스로 업무용 사용 가능
 - Evaluation version이 가끔 구매 popup이 뜨는 것을 제외하고는 별다른 time limit가 없음
 
-에디터 내에 package 관리자가 내장되어 snippet나 syntax, theme을 인스톨할 수 있고, python으로 package를 제작할 수 있는 것도 매력적이다. 폰트나 탭 크기 등 각 설정들은 json 파일로 관리된다. 
+에디터 내에 package 관리자가 내장되어 snippet나 syntax, theme을 인스톨할 수 있고, python으로 package를 제작할 수 있는 것도 매력적이다. 폰트나 탭 크기 등 각 설정들은 json 파일로 관리된다.
 
-![](https://farm6.staticflickr.com/5576/14670288241_fe5172a69e.jpg)
+ ![](https://farm6.staticflickr.com/5576/14670288241_fe5172a69e.jpg)
 
 10M 이상의 큰 파일을 열어서 편집할 때도 괜찮은 속도를 보여주고, IDE 처럼 symbol을 참조하거나 문서를 볼 수 있는 기능도 있다. 사용자 층이 많아서 인터넷 상에 관련 자료가 꽤 있다.
 
@@ -86,7 +86,6 @@ Emacs에서 사용했던 바인딩대로 meta+f, meta+b로 단어 단위 이동�
 ### 기타
 
 - Undo시 이상동작 : 한글이 들어가 있으면 undo 동작이 이상하다
-
 ![](http://cl.ly/image/2d34151Q3v1I/sublime-hangul-undo.gif)
 
 - 입력기와 충돌인지 아니면 설치된 package와의 충돌인지 모르겠지만 shift-space로 한영 전환이 안 되는

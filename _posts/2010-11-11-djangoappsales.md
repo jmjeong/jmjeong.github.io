@@ -25,16 +25,22 @@ DB에 넣어서 여러 view로 sales report를 보기 위한 프로그램입니�
 Python package가 인스톨되어 있으면 
 `easy_install` 명령을 이용하여 시스템에 필요 package를 인스톨할 수 있습니다.
 
-	sudo easy_install django django-extensions django-pagination pyofc2 south
+```
+sudo easy_install django django-extensions django-pagination pyofc2 south
+```
 
 App sales data를 자동으로 받아오기 위해서 java 모듈이 install되어 있어야 합니다. 
 Ubuntu 상에서는 다음과 같이 인스톨할 수 있습니다. 
 
-	sudo apt-get install openjdk-6-jre-headless        
+```
+sudo apt-get install openjdk-6-jre-headless        
+```
 
 ### Downloads
 
-	git clone git://github.com/jmjeong/django-appsales.git appsales
+```
+git clone git://github.com/jmjeong/django-appsales.git appsales
+```
 
 ## 설치
 
@@ -44,7 +50,7 @@ Ubuntu 상에서는 다음과 같이 인스톨할 수 있습니다.
 
 자동화를 위해서 `APPSTORE_ID`와 `APPSTORE_PW` 항목을 설정합니다.
 
-{% highlight python %}
+```python
  ACCOUNT_INFO = [
      {                                   # account 1
          'VENDOR_ID'   :   ,             # Vendor ID(8x...) the entity which you want to download the report
@@ -71,14 +77,14 @@ Ubuntu 상에서는 다음과 같이 인스톨할 수 있습니다.
      'email' : '',                       # id
      'passwd' : '',                      # passwd
      }
-{% endhighlight %}
+```
 
 ### 기본설치 
 
 다운로드 받은 appsales directory에서 `./manage.py syncdb`를 입력합니다.
 프로그램 수행 중간에 admin 계정 설정을 묻는 항목이 나옵니다. 
 
-{% highlight console %}
+```
  jmjeong-ui-MacBook-Pro:appsales jmjeong$ ./manage.py syncdb
  Creating table auth_permission
  Creating table auth_group_permissions
@@ -116,13 +122,13 @@ Ubuntu 상에서는 다음과 같이 인스톨할 수 있습니다.
  jmjeong-ui-MacBook-Pro:appsales jmjeong$ 
 
  jmjeong-ui-MacBook-Pro:appsales jmjeong$ ./manage.py migrate 
-{% endhighlight %}
+```
 
 ### 서버구동
 
 `django` 기본 서버를 이용하여 web server를 구동할 수 있습니다. 
 
-{% highlight console %}
+```
  jmjeong-ui-MacBook-Pro:appsales jmjeong$ ./manage.py runserver
  Validating models...
  0 errors found
@@ -130,7 +136,7 @@ Ubuntu 상에서는 다음과 같이 인스톨할 수 있습니다.
  Django version 1.2.3, using settings 'appsales.settings'
  Development server is running at http://127.0.0.1:8000/
  Quit the server with CONTROL-C.
-{% endhighlight %}
+```
 
 시스템 서버 구동은 [Django deployment](http://docs.djangoproject.com/en/dev/howto/deployment/)를 참고하십시오.
 
@@ -150,12 +156,13 @@ DB에 import되는 data는 [iTunesConnect](http://itunesconnect.apple.com)에서
 
 `settings.py`에 정의된 `DATA_DIR`에 위치한 파일 중에서 정의된 Prefix를 가진 파일을 읽어 들입니다.
 
-	jmjeong-ui-MacBook-Pro:appsales jmjeong$ ./manage.py runjob populate
-	Populate data files in [/Users/jmjeong/django/appsales/sales-rawdata]
-	[2010/11/08] is now processing...
+```
+jmjeong-ui-MacBook-Pro:appsales jmjeong$ ./manage.py runjob populate
+Populate data files in [/Users/jmjeong/django/appsales/sales-rawdata]
+[2010/11/08] is now processing...
+```
 
-`DATA_DIR`에 있는 파일 중에서 `S_D_mmddyyyy.txt`이나 `S_D_mm-dd-yyyy.txt`와 같은 형태의 파일만 읽어서
-처리합니다. 이미 처리된 파일은 중복처리가 되지 않기 때문에 이 명령은 여러번 사용해도 괜찮습니다.
+`DATA_DIR`에 있는 파일 중에서 `S_D_mmddyyyy.txt`이나 `S_D_mm-dd-yyyy.txt`와 같은 형태의 파일만 읽어서 처리합니다. 이미 처리된 파일은 중복처리가 되지 않기 때문에 이 명령은 여러번 사용해도 괜찮습니다.
 
 ## 자동화
 
@@ -167,26 +174,26 @@ python script입니다. `./utils/appdailysales.py`는 [AppDailySales](http://app
 - 이미 다운로드 받은 report는 받지 않기
 - Option과는 상관없이 현재 iTunes Connect에서 모든 daily sales report를 받기
 
-`./manage.py runjob download`를 하면 `settings.py`에 설정된 Id, Pw를 이용하여 sales data를 받아서
-=DATA_DIR=에 저장을 합니다.
+`./manage.py runjob download`를 하면 `settings.py`에 설정된 Id, Pw를 이용하여 sales data를 받아서 =DATA_DIR=에 저장을 합니다.
 
-	jmjeong-ui-MacBook-Pro:appsales jmjeong$ ./manage.py runjob download
-	Report file downloaded: 
-	['/Users/jmjeong/django/appsales/sales-rawdata/S_D_11-09-2010.txt'] 
+```
+jmjeong-ui-MacBook-Pro:appsales jmjeong$ ./manage.py runjob download
+Report file downloaded: 
+['/Users/jmjeong/django/appsales/sales-rawdata/S_D_11-09-2010.txt'] 
+```
 
 ### 각 나라별 Review 받기
 
-`./manage.py runjob download-review` 명령을 수행하면 US, KR, HK, JP, AU, DE, GB 나라의 Review를
-받아서 DB에 등록합니다.
+`./manage.py runjob download-review` 명령을 수행하면 US, KR, HK, JP, AU, DE, GB 나라의 Review를 받아서 DB에 등록합니다.
 
 ### Crontab에 등록
 
-`cron.sh` script는 iTunesConnect site로부터 sales data를 download하여 DB에 저장하는 script입니다.
-`crontab -e`를 이용하여 system의 crontab에 등록합니다.
+`cron.sh` script는 iTunesConnect site로부터 sales data를 download하여 DB에 저장하는 script입니다. `crontab -e`를 이용하여 system의 crontab에 등록합니다.
 
-	@daily /path/to/cron.sh
-	@daily /path/to/manage.py runjob download-review
-
+```
+@daily /path/to/cron.sh
+@daily /path/to/manage.py runjob download-review
+```
 ### Screenshots
 
 - 메인 페이지
@@ -204,3 +211,5 @@ python script입니다. `./utils/appdailysales.py`는 [AppDailySales](http://app
 ## Credits
 
 프로그램에서 사용하는 나라별 Icon Set은 [Country Flag Icon Set](http://www.gosquared.com/liquidicity/archives/1493)에서 가져왔습니다.
+
+

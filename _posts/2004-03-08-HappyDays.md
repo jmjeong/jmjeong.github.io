@@ -6,17 +6,11 @@ category: [happdyays,palm]
 tags:  palm happydays
 ---
 
-HappyDays is an application for the Palm family of hand-held computers. It is yet another
-[Birthdate](http://www.birthdate.com/) clone. HappyDays will help you remember the birthdays and
-anniversaries of your friends and family members. HappyDays is free to use and licensed under the
-[GNU General Public License](http://www.gnu.org/copyleft/gpl.html). It is developed using
-[PRC-Tools](http://sourceforge.net/projects/prc-tools/) on an Linux.
+HappyDays is an application for the Palm family of hand-held computers. It is yet another [Birthdate](http://www.birthdate.com/) clone. HappyDays will help you remember the birthdays and anniversaries of your friends and family members. HappyDays is free to use and licensed under the [GNU General Public License](http://www.gnu.org/copyleft/gpl.html). It is developed using [PRC-Tools](http://sourceforge.net/projects/prc-tools/) on an Linux.
 
 ![](http://farm3.staticflickr.com/2680/13211658195_53d400c952_o.gif)
 
-HappyDays is a work in progress. If you have any suggestions for improvement or found a bug in the
-program, please email me(Jaemok Jeong). You can see some reviews about this program from
-[PalmGear H.Q.](http://www.palmgear.com/software/showsoftware.cfm?prodID=6289). 
+HappyDays is a work in progress. If you have any suggestions for improvement or found a bug in the program, please email me(Jaemok Jeong). You can see some reviews about this program from [PalmGear H.Q.](http://www.palmgear.com/software/showsoftware.cfm?prodID=6289). 
 
 #### Features  
 
@@ -49,3 +43,4 @@ I'd like to thank the following people who had helped me to develop the program:
 
 - [HappyDays-Download]({% post_url 2004-03-08-HappyDays-Download %})
 - [HappyDays-Manual]({% post_url 2004-03-08-HappyDays-Manual %})
+

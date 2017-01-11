@@ -23,7 +23,7 @@ update가 기대되고 있다.
 
 #### urls.py
 
-{% highlight python %}
+```python
 from piston.resource import Resource
 from latte.api.handlers import UserHandler, RuleHandler, RuleSearchOwnerHandler, RuleSearchTargetHandler
 
@@ -39,11 +39,11 @@ urlpatterns = patterns('',
     url(r'^user/?$', user),
     url(r'^user/(?P<email>[^/]+)/?$', user),
 )
-{% endhighlight %}
+```
 
 #### handler.py
 
-{% highlight python %}
+```python
 from piston.handler import BaseHandler, AnonymousBaseHandler
 from piston.utils import rc, require_mime, require_extended
 
@@ -107,7 +107,7 @@ class UserHandler(BaseHandler):
             return rc.BAD_REQUEST
             
         return rc.CREATED
-{% endhighlight %}
+```
 		
 #### django-tastypie
 
@@ -117,7 +117,7 @@ v1.0.0-beta 버전이 release 되었다. dehydrate, hydrate function에서 GET�
 
 #### urls.py
 
-{% highlight python %}
+```python
 from django.conf.urls.defaults import *
 from tastypie.resources import ModelResource
 from tastypie.api import Api
@@ -131,11 +131,11 @@ v1_api = Api(api_name='v1')
 v1_api.register(UserResource())
 
 urlpatterns = v1_api.urls
-{% endhighlight %}
+```
 
 #### resources.py
 
-{% highlight python %}
+```python
 from django.contrib.auth.models import User
 from latte.api.models import Rule
 
@@ -170,7 +170,7 @@ class UserResource(ModelResource):
         bundle.obj = user
         return bundle
 ...
-{% endhighlight %}
+```
 
 ### django-rest-framework
 
@@ -179,7 +179,7 @@ based view에 기반을 해서 간단하고, 모듈화 된 장점도 있다.
 
 #### urls.py
 
-{% highlight python %}
+```python
 from django.conf.urls.defaults import *
 
 from djangorestframework.resources import ModelResource
@@ -196,11 +196,11 @@ urlpatterns = patterns('',
     name="rule-detail"),
 ...
 )
-{% endhighlight %}
+```
 
 #### views.py
 
-{% highlight python %}
+```python
 from django.core.urlresolvers import reverse
 
 from djangorestframework.views import View
@@ -223,4 +223,6 @@ class TestView(View):
 
         # print request.data
 		return Rule.objects.all()
-{% endhighlight %}
+```
+
+

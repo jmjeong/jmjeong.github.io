@@ -22,7 +22,8 @@ PlanBe와 x-callback-url을 이용한 할 일 여러개 등록하는 Tip 입니�
 - 2/1 일 처럼 QuickAdd 에 쓰이는 여러 날짜/시간 지정 항목을 쓸 수 있습니다
 - +1w 오늘로부터 1주일 뒤 할 일로 등록합니다. +2w, +1m을 통해 각각 2주 뒤, 한달 뒤 할 일을 등록할 수 있습니다. 
 
-
 <iframe width="620" height="515" src="//www.youtube.com/embed/Xfuz_m54X9E" frameborder="0" allowfullscreen></iframe>
 
 Lite 버전 사용하시는 분은 namuplanbelite 로 변경하면 동작합니다. 
+
+

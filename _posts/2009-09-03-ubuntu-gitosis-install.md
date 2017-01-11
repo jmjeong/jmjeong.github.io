@@ -51,8 +51,7 @@ public SSH key를 authorized key로 등록한다.
 
 *gitosis.conf* 에 새로운 group을 생성한다.
 
-private group 이름은 다른 이름이나 상관없고, 이 그룹에 속해 있는 사람은 *journal* 이라는 repository에 대해
-write 권한을 가진다.
+private group 이름은 다른 이름이나 상관없고, 이 그룹에 속해 있는 사람은 *journal* 이라는 repository에 대해 write 권한을 가진다.
 
     [group private]
     members = jmjeong@jaemok-jeongyi-macbook-pro.local
@@ -62,8 +61,7 @@ write 권한을 가진다.
     description = Jaemok's journal
     owner = jmjeong@jaemok-jeongyi-macbook-pro.local
 
-*john* 이라는 사람이 journal이라는 repository에 readonly access 권한을 주고 싶은 경우에는 아래와 같이
-설정이 가능하다.
+*john* 이라는 사람이 journal이라는 repository에 readonly access 권한을 주고 싶은 경우에는 아래와 같이 설정이 가능하다.
 
     [group private-ro]
     members = john
@@ -78,9 +76,7 @@ write 권한을 가진다.
 
     ssh-keygen -t rsa
 
-명령어로 key를 생성한 후, `id_rsa.pub` key를 keydir로 copy한 후 add, commit 한 후 서버로 push한다. 
-이 때 파일 이름을 `id_rsa.pub` 내에 있는 user 이름으로 하고, 그 뒤에 확장자를 꼭 \*.pub\*로 해야 한다.
-확장자를 맞춰주지 않는 경우에는 server의 gitosis-admin repository의 keydir에 key가 등록이 되었는데도
-불구하고, ssh 접속 권한이 열리지 않는 문제가 생긴다. <span class="timestamp-wrapper"><span class="timestamp">&lt;2010-08-16 Mon&gt;</span></span>
+명령어로 key를 생성한 후, `id_rsa.pub` key를 keydir로 copy한 후 add, commit 한 후 서버로 push한다.  이 때 파일 이름을 `id_rsa.pub` 내에 있는 user 이름으로 하고, 그 뒤에 확장자를 꼭 \*.pub\*로 해야 한다. 확장자를 맞춰주지 않는 경우에는 server의 gitosis-admin repository의 keydir에 key가 등록이 되었는데도 불구하고, ssh 접속 권한이 열리지 않는 문제가 생긴다. <span class="timestamp-wrapper"><span class="timestamp">&lt;2010-08-16 Mon&gt;</span></span>
 
     jmjeong@jmjeong-ui-MacBook-Pro.local.pub
+

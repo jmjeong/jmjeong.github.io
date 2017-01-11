@@ -6,8 +6,7 @@ tags: happydays ios
 ---
 
 #### Syntax
-
-    title,date[d-day]
+`title,date[d-day]`
 
 - `title` and `[d-day]` is optional
 - date format of `date` follows date format  in Setting of HappyDays
@@ -21,6 +20,7 @@ tags: happydays ios
 
 #### Example
 
+```
 	10/9
 	New year,1/1
 	New year in lunar,-1/1
@@ -32,4 +32,5 @@ tags: happydays ios
 	The day before new year,1/1[-1]
 	The 50th day before the exam,2014/11/10[-50]
 	Christmas in 2014 only,2014/12/25[0]
+```
 

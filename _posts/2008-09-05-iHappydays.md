@@ -8,21 +8,17 @@ image:
   teaser: t-happydays-3.png
 ---
 
-Are you having trouble keeping track of your friends' and family members' birthday and
-anniversaries? Especially the one's that follow the LUNAR CALENDAR?
+Are you having trouble keeping track of your friends' and family members' birthday and anniversaries? Especially the one's that follow the LUNAR CALENDAR?
 
 HappyDays for Palm returns to the iPhone/iPod touch world.
 
 Know when and whose important days are coming with iHappyDays!!!
 
-iHappyDays will help you remember the birthdays and anniversaries of
-your friends and family members. 
+iHappyDays will help you remember the birthdays and anniversaries of your friends and family members. 
 
-It retrieves information from the built-in Birthday and Date fields of Contacts and displays it neat
-and nicely in table view.
+It retrieves information from the built-in Birthday and Date fields of Contacts and displays it neat and nicely in table view.
 
-The table view will help you see how soon your contacts' next birthday and anniversaries are coming.
-In addition you can look-up, add, and modify your contact's information from iHappyDays.
+The table view will help you see how soon your contacts' next birthday and anniversaries are coming. In addition you can look-up, add, and modify your contact's information from iHappyDays.
 
 ## Features
 
@@ -31,8 +27,7 @@ In addition you can look-up, add, and modify your contact's information from iHa
 -   Besides Birthday field, It supports the custom Date field
 -   iHappyDays caches information for the faster lookup
 -   You can sort the entries by name, age, and date
--   You can add or modify your contacts' information from iHappyDays. The modification will be
-    applied in Contacts directly
+-   You can add or modify your contacts' information from iHappyDays. The modification will be applied in Contacts directly
 -   Compatible with iPhone and iPod touch
 
 ## Downloads
@@ -69,3 +64,5 @@ You can download iHappyDays from [AppStore](http://tinyurl.com/y8qteqp).
     -   (Add) Korean Localized version
 -   Ver 0.5 - (2008-09-05)
     -   Initial release
+
+

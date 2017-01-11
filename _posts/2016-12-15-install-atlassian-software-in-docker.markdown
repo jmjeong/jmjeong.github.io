@@ -6,8 +6,7 @@ category:
 tags: docker atlassian 
 ---
 
-Ubuntu 16.04.01(Xenial) LTS에 docker를 이용하여 atlassian jira, confluence 설치하기 
-
+**Ubuntu 16.04.01(Xenial) LTS에 docker를 이용하여 atlassian jira, confluence 설치하기**
 
 # Docker Install
 
@@ -87,3 +86,4 @@ docker run --name confluence -itd --restart always \
     - `jdbc:postgresql://<hostip>:15432/<confluence, jira>`
 - docker shell 접속
     - `docker exec -it jira /bin/bash`
+

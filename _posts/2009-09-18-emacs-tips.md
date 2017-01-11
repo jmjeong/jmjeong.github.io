@@ -10,7 +10,7 @@ tags: emacs
 
 내장 함수로 있을 것 같은데, 찾아봐도 없다.
 
-```elisp
+```lisp
   ;; insert-path macro
   (defun insert-path (file)
     "Insert a path into the buffer with completion"
@@ -35,7 +35,7 @@ tags: emacs
 Windows, X, MacOS에 따라 동작방식이 다르다. maxframe.el을 이용해서 Meta-RET로 toggle 방식으로 처리가
 되도록 변경해서 사용했다
 
-```elisp
+```lisp
 ;; maxframe.el [2009-10-22]
 (require 'maxframe)
 ;(add-hook 'window-setup-hook 'maximize-frame t)
@@ -54,7 +54,7 @@ Windows, X, MacOS에 따라 동작방식이 다르다. maxframe.el을 이용해�
 
 ## Emacs Recent file list 관리
 
-```elisp
+```lisp
 ;; recentf stuff
 (require 'recentf)
 (recentf-mode 1)
@@ -80,7 +80,7 @@ Dired-x 모듈을 dired 모드 쓸 때 로딩하고, 원하는 directory에 .dir
 variable들을 설정하여 사용한다. 홈페이지의 블로깅 article들을 최근 변경한 순서로 보기 위한 용도로
 세팅하여 사용 중이다.
 
-```elisp
+```lisp
 (add-hook 'dired-load-hook
           (lambda ()
           (load "dired-x")
@@ -89,10 +89,12 @@ variable들을 설정하여 사용한다. 홈페이지의 블로깅 article들�
 
 .dired 파일 내용 
 
+```
     Local Variables:
     dired-actual-switches: "-lat"
     dired-omit-mode: t
     End:
+```
 
 ## 현재 창에 보이는 font 크기 조절하기(Emacs 23)
 
@@ -117,7 +119,7 @@ X 상에서야 xset b off 하면 나오는 삐삐 거리는 벨 소리를 없앨
 
 이런 용도로는 set-message-beep를 사용한다.
 
-```elisp
+```lisp
 (set-message-beep 'silent)
 ```
 
@@ -126,7 +128,7 @@ X 상에서야 xset b off 하면 나오는 삐삐 거리는 벨 소리를 없앨
 Org 모드에서는 fixed with font인 NanumGodicCoding을 사용하는데, mail에는 가변폭 폰트를 사용하고 싶다. 
 `variable-picth-mode` 값을 세팅하면 된다(Emacs 23에서만 가능). 
 
-```elisp
+```lisp
 (setq message-mode-hook
      (quote (
      (lambda () (variable-pitch-mode nil)) 

@@ -14,28 +14,24 @@ tags: alfred
 
 ![img](//farm8.staticflickr.com/7073/7007485345_7446e4a659_o.jpg)
 
-AlfredTweet에서 posting한글이 WinXP에서 볼 때 자소 단위로 풀어지는 현상을 @gypark님이
-알려주셨습니다.
+AlfredTweet에서 posting한글이 WinXP에서 볼 때 자소 단위로 풀어지는 현상을 @gypark님이 알려주셨습니다.
 
-Mac이나 Win7에서는 문제가 없는데 Win XP에서 볼 때에만 풀어서 보이게 됩니다.  Mac에서 unicode를
-NFD(Normalization Form Decomposition)방식으로 처리하는데 Win XP에서는 이것을 자동으로 NFC로 바꿔주지
-않아서 생기는 문제입니다.
+Mac이나 Win7에서는 문제가 없는데 Win XP에서 볼 때에만 풀어서 보이게 됩니다.  Mac에서 unicode를 NFD(Normalization Form Decomposition)방식으로 처리하는데 Win XP에서는 이것을 자동으로 NFC로 바꿔주지 않아서 생기는 문제입니다.
 
-AlfredApp 제작자에게 parameter를 넘길때 NFC로 넘기는 Option을 만들어달라는 건의 메일을 보냈는데,
-extension client에서 처리하는게 나을것 같다는 답장이 왔습니다.  Client에서 처리하는게 맞을 것 같기도
-하고요.
+AlfredApp 제작자에게 parameter를 넘길때 NFC로 넘기는 Option을 만들어달라는 건의 메일을 보냈는데, extension client에서 처리하는게 나을것 같다는 답장이 왔습니다.  Client에서 처리하는게 맞을 것 같기도 하고요.
 
 # 패치
 
 ## php-intl module install
 
-Mac Lion에 있는 php는 default로 intl 모듈을 지원하지 않아서, 
-php-intl 모듈을 먼저 활성화 해야 합니다.
+Mac Lion에 있는 php는 default로 intl 모듈을 지원하지 않아서,php-intl 모듈을 먼저 활성화 해야 합니다.
 
-    Jaemok-Jeong-ui-MacBook-Pro:~ jmjeong$ php -v
-    PHP 5.3.8 with Suhosin-Patch (cli) (built: Nov 15 2011 15:33:15) 
-    Copyright (c) 1997-2011 The PHP Group
-    Zend Engine v2.3.0, Copyright (c) 1998-2011 Zend Technologies
+```
+Jaemok-Jeong-ui-MacBook-Pro:~ jmjeong$ php -v
+PHP 5.3.8 with Suhosin-Patch (cli) (built: Nov 15 2011 15:33:15) 
+Copyright (c) 1997-2011 The PHP Group
+Zend Engine v2.3.0, Copyright (c) 1998-2011 Zend Technologies
+```
 	
 -   Download and install [ICU](http://download.icu-project.org/files/icu4c/4.8.1.1/icu4c-4_8_1_1-src.tgz)
 
@@ -108,3 +104,5 @@ index fd6cc14..dd9931d 100755
                     // If its over 136 characters, then break here and make the current value its
                     // own tweet. Then reset the $newtweet value with the mentioned users in the
 ```
+
+

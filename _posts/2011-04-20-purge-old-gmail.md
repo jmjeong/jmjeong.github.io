@@ -16,7 +16,7 @@ Gmail은 `imap.store('+FLAGS', 'Deleted')` 후에 `imap.expunge()`를 하더라�
 
 휴지통 이름은 ‘언어설정’에 따라 달라지는 것 같다. 한국어로 설정했을 때는 결과값이 실패로 넘어오는데, 영문으로 바꾼 후에는 정상 동작한다.
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
@@ -76,4 +76,6 @@ if __name__ == '__main__':
         
     process()
     print "Finished..."
-{% endhighlight %}
+```
+
+

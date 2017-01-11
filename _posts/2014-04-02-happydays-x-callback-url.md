@@ -9,7 +9,7 @@ tags: happydays
 
 ### parse
 
-	happydays://x-callback-url/parse?tags=&data=&prompt=&x-source=&x-success=
+`happydays://x-callback-url/parse?tags=&data=&prompt=&x-source=&x-success=`
 
 * tags : Tags which will be assigned to the created record
     - Case-sensitive. Delimeter ','
@@ -36,7 +36,7 @@ tags: happydays
 
 ### search
 
-	happydays://x-callback-url/search?q=&tag=
+`happydays://x-callback-url/search?q=&tag=`
 
 * q : Search name
 * tag : Specifies the tag for searching. All data will be searched without it.

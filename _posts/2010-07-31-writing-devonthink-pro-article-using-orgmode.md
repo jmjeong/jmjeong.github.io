@@ -6,9 +6,7 @@ category: emacs
 tags: mac
 ---
 
-[Devonthink (Pro)](http://www.devon-technologies.com/products/devonthink/) supports rich text format
-writing. But I prefer [emacs orgmode](http://orgmode.org/) format to rich text format. This elisp
-code is for exporting orgmode document into Devonthink document.
+[Devonthink (Pro)](http://www.devon-technologies.com/products/devonthink/) supports rich text format writing. But I prefer [emacs orgmode](http://orgmode.org/) format to rich text format. This elisp code is for exporting orgmode document into Devonthink document.
 
 ```lisp
 (defun org-export-to-devonthink (arg)
@@ -32,9 +30,7 @@ end tell
 (global-set-key [f8] 'org-export-to-devonthink)
 ```
 
-I bind org-export-to-devonthink to [F8] key. After writing the document, press [F8]. This script
-exports the orgmode article in the format of HTML and save it to the selected group in Devonthink
-Pro.
+I bind org-export-to-devonthink to [F8] key. After writing the document, press [F8]. This script exports the orgmode article in the format of HTML and save it to the selected group in Devonthink Pro.
 
 By `Launch URL` command in Devonthink Pro, you can jump to original orgmode article.
 
@@ -45,3 +41,5 @@ By `Launch URL` command in Devonthink Pro, you can jump to original orgmode arti
 #### Exported HTML article saved in Devonthink Pro
 
 ![](http://farm3.staticflickr.com/2390/13172243474_d6da5021d0_o.jpg)
+
+
