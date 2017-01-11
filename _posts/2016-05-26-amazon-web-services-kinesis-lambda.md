@@ -4,7 +4,7 @@ title: AWS Kinesis, API Gateway, Lambda
 description: AWS Kinesis, API Gateway, Lambda
 category: node
 excerpt: AWS Kinesis, API Gateway, Lambda
-tags: node, aws, amazon
+tags: node aws amazon
 ---
 
 - [PDF format](http://dr.jmjeong.com/1dNdw+)
