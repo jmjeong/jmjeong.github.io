@@ -4,8 +4,6 @@ title: Markdown toc generator
 modified: 
 category: python
 tags: python
-image:
-  teaser: t-python.jpg
 ---
 
 Markdow 문서에서 목차를 만들어내는 프로그램
@@ -190,3 +188,5 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
+

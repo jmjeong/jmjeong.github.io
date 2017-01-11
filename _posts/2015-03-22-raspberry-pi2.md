@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Raspberry Pi2
-image:
-  teaser: t-raspberry-pi.jpg
+tags: rasberry
 ---
 
 3.14 파이 데이를 기념하여 raspberry pi2를 구입했다. [RasPlex](http://www.rasplex.com/index.html)을
@@ -18,3 +17,5 @@ image:
 - Micro USB power source
 
 - micro SD 카드는 Trescend 16GB class 10 Trescend을 구입
+
+

@@ -47,8 +47,10 @@ class AnimalTestCase(unittest.TestCase):
 		
 ### Running tests
 
+```
 	./manage.py test
 	./manage.py test animal
+```
 	
 ### The test database
 
@@ -81,3 +83,4 @@ test client는 더미 웹 브라우저처럼 동작하는 Python class이다. �
 - [http://docs.python.org/library/unittest.html](http://docs.python.org/library/unittest.html)
 - [http://od-eon.com/blogs/tudor/test-driven-development-django-way/](http://od-eon.com/blogs/tudor/test-driven-development-django-way/)
 - [http://od-eon.com/blogs/tudor/story-test/](http://od-eon.com/blogs/tudor/story-test/)
+

@@ -3,9 +3,7 @@ layout: post
 title: Outwitters
 modified: 
 category: ios 
-tags: ios
-image:
-  teaser: t-outwitters.jpg
+tags: ios game
 ---
 
 # Outwitters 게임 
@@ -73,3 +71,5 @@ Outwitters Link를 ADN에서 유효한 link로 인식하지 않아, OutWitters l
 3. Post to ADN action을 이용하여 riposte로 posting
 
 ![](/images/outwitters.jpg)
+
+

@@ -3,9 +3,7 @@ layout: post
 title: clash of clans upgrade tracker
 modified: 
 category: node
-tags: node
-image:
-  teaser: t-coc-tracker.jpg
+tags: node game
 ---
 
 [http://coc.jmjeong.com](http://coc.jmjeong.com)
@@ -64,3 +62,5 @@ Clash of Clans 타운 홀 별 업그레이드 정보를 보여주고 기록하�
 ![share](/images/coc/coc-share.jpg)
 
 - 현재 Upgrade 상태를 친구에게 [읽기 모드]로 공유 기능 제공
+
+
