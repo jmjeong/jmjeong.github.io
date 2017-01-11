@@ -3,7 +3,7 @@ layout: post
 title: "HappyDays x-callback-url"
 description:
 category: [happydays,ios]
-tag: happydays
+tags: happydays
 ---
 
 ## x-callback-url 
@@ -41,3 +41,5 @@ tag: happydays
 
 * q : Search name
 * tag : Specifies the tag for searching. All data will be searched without it.
+
+
