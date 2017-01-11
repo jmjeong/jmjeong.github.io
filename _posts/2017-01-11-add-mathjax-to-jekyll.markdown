@@ -1,7 +1,7 @@
 ---
 title: jekyll에 mathjax 추가
 layout: post
-tags: jekyll, mathjax
+tags: jekyll mathjax
 ---
 
 `layouts/defaults.html`에 mathjax script 추가 
@@ -29,3 +29,4 @@ For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formu
 \\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
 {1+\frac{e^{-8\pi}} {1+\ldots} } } } \\]
+

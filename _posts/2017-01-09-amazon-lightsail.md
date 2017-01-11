@@ -3,7 +3,7 @@ layout: post
 title: amazon lightsail 잠깐 사용기
 description: 
 category: 
-tags: amazon, lightsail, aws
+tags: amazon lightsail aws
 ---
 
 개발용 jira, confluence를 설치해서 사용하는 EC2가 메모리가 여유롭지 않아 amazon lightsail로 이전을 테스트 했다.VPS이지만 예측 가능한 가격과 저렴한 데이타 전송 요금이 매력적이다. 
