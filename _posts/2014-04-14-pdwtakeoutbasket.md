@@ -8,10 +8,8 @@ image:
   teaser: t-pdw-takeout-basket.jpg
 ---
 
-
 4.5일이 회사 창립 기념일입니다. 창립기념일 선물로 평소에 자기 자신에게 선물하기 힘들었던, 재미있고,
-창의력 넘치는 물건을 회사를 대신해서 스스로에게 선물하는 행사를 하고 있습니다. 올해는
-pdw-takeout-basket을 선택했습니다.
+창의력 넘치는 물건을 회사를 대신해서 스스로에게 선물하는 행사를 하고 있습니다. 올해는 pdw-takeout-basket을 선택했습니다.
 
 - [pdw takeout basket](http://www.funshop.co.kr/goods/detail/15485?t=c)
 
@@ -30,3 +28,5 @@ pdw-takeout-basket을 선택했습니다.
 
 핸드폰 충전지나 간단한 스낵바 정도는 무리 없이 넣고 다닐만 합니다. 집에 와서 장착 시도할때는 잠깐
 후회했는데 달고 나니 괜찮네요.
+
+

@@ -73,7 +73,7 @@ Link : [https://telegram.me/gemsofwar_bot](https://telegram.me/gemsofwar_bot)
   - chrome developer tool의 copy selector를 이용하여 모델 작성
   - traits 정보는 json 으로 제공해 줌 - async.parallel을 이용하여 정보 읽어 옴
 
-## 목표
+## 제작 동기
 
 - [GemsOfWar](http://gemsofwar.com) Puzzle-RPG hybrid from the creators of Puzzle Quest
 - 매 주 새로운 카드 추가, 카드에 skill, traits, kingdom, type 등 다양한 정보가 있음
@@ -81,3 +81,5 @@ Link : [https://telegram.me/gemsofwar_bot](https://telegram.me/gemsofwar_bot)
 - 길드가 활성화되어 통신 수단으로 telegram 사용
 - telegram bot api 테스트 겸 @GemsOfWar_bot 제작
 - 새로운 데이타가 추가되더라도 유연하게 처리
+
+

@@ -10,7 +10,7 @@ Python binding for Admob Api
 
 <!-- more -->
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
@@ -136,5 +136,5 @@ if __name__ == '__main__':
         for j in data:
             if j['revenue'] != 0:
                 print j['date'], ":", j['revenue']
-{% endhighlight %}
+```
 

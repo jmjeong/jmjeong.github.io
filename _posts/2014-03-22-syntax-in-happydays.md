@@ -2,10 +2,7 @@
 layout: post
 title: Syntax used in HappyDays
 description: 
-category: [happydays,ios]
 tags: happydays ios
-image:
-  teaser: t-happydays-3.jpg
 ---
 
 #### Syntax
