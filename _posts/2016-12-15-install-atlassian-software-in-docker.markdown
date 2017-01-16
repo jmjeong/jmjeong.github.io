@@ -87,3 +87,18 @@ docker run --name confluence -itd --restart always \
 - docker shell 접속
     - `docker exec -it jira /bin/bash`
 
+## jira, confluence 이전
+
+- rsync 로 데이타 이전 - root 권한으로 이전 
+- ubuntu 계정을 docker group에 추가 
+- `confluence/confluence.cfg.xml`에서 db 주소 변경 
+- `jira/dbconfig.xml`에서 db 주소 변경
+- 메일 설정 
+	- `/etc/mail/sendmail.mc`에서 `DAEMON_OPTIONS...` 설정. local 이외에도 접속 가능하게 변경
+	- `docker network inspect bridge` docker ip addr 확인
+		- `172.17.0.1 25`로 주소 설정
+	- `/etc/mail/relay-domains`에 `172.17.0.` 추가 
+	- nemustech 메일 서버에 jira쪽 메일 허용 Option 추가
+		- `postfix/sender_access` `ip-172…..internal OK`
+
+
