@@ -4,6 +4,9 @@ layout: post
 tags: jekyll
 ---
 
+Jekyll에서 liquid warning 처리하는 방법 
+
+<!-- more -->
 {% raw %}
 Jekyll 에서 사용되는 liquid가 `{{`와 `}}`를 escape 문자로 사용합니다. 
 문서에 {{, }} 가 들어 있는 경우 jekyll engine이 경고 메시지를 출력하고,
@@ -15,10 +18,10 @@ Jekyll 에서 사용되는 liquid가 `{{`와 `}}`를 escape 문자로 사용합�
 Liquid Warning: Liquid syntax error (line 20): Unexpected character / in "{{drafts://}}" in 
  <path>/2014-04-02-happydays-x-callback-url.md
 ```
+{% endraw %}
 
 해당 내용을 liquid parsing을 하지 않기 위해서는 문장 앞뒤로 다음과 같은 tag를 추가해 주면
 warning과 출력 문제를 해결할 수 있습니다. 
 
 ![](http://d.jmjeong.com/K4a5+)
 
-{% endraw %}
